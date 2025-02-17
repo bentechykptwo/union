@@ -117,6 +117,8 @@ in
           "${forge}/bin/forge";
         options = [ "fmt" ];
         includes = [ "*.sol" ];
+includes = [ "*.kas" ];
+includes = [ "*.xrp" ];
       };
       # movefmt = {
       #   command = "${movefmt}/bin/movefmt";
